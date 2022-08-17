@@ -17,6 +17,8 @@ spec:
           tag: latest
         ingress:
           host: devopsparadox.127.0.0.1.nip.io
+        service:
+          annotations: {}
       version: v3
   destination:
     namespace: production
